@@ -1,0 +1,19 @@
+{
+  "name": "vincentorback/clean-wordpress-admin",
+  "license": "UNLICENSED",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "scripts": {
+    "test": "./vendor/bin/phpcbf *.php -p --ignore=vendor --standard=WordPress"
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^2.3.0",
+    "phpcompatibility/phpcompatibility-wp": "^2.1.1",
+    "squizlabs/php_codesniffer": "^3.6",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
+  }
+}
